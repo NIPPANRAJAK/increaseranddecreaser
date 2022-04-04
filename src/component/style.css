@@ -1,0 +1,30 @@
+.main{
+   background-color: aqua;
+   height: 200px;
+   width: 500px;
+   margin-top: 10%;
+   margin-left: 30%;
+   padding-top: 8%;
+   border: 1px solid black;
+   border-radius: 10px;
+}
+.actionField{
+    /* background-color:aqua; */
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.incBtn {
+    height: 30Px;
+    width: 100px;
+    font-size: larger;
+    padding: 0%;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
