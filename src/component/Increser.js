@@ -29,7 +29,7 @@ const Increaser = () => {
     }
 
     return (<div>
-        <h1 className="heading">INCREASE AND DECREASE THE NUMBER</h1>
+        <h1 className="heading">INCREASE AND DECREASE THE NUMBER BETWEEN 0-20</h1>
         <div className="main">
             <div className="actionField" >
                 <button className="incBtn" onClick={DecreaseVlaue}>-</button>
