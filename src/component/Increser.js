@@ -28,7 +28,8 @@ const Increaser = () => {
         }
     }
 
-    return (
+    return (<div>
+        <h1 className="heading">INCREASE AND DECREASE THE NUMBER</h1>
         <div className="main">
             <div className="actionField" >
                 <button className="incBtn" onClick={DecreaseVlaue}>-</button>
@@ -37,6 +38,7 @@ const Increaser = () => {
                 </div>
                 <button className="incBtn" onClick={IncreaseVlaue}>+</button>
             </div>
+        </div>
         </div>
     )
 }
