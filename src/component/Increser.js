@@ -11,7 +11,7 @@ const Increaser = () => {
     }
     const IncreaseVlaue = () => {
         if (value < 20) {
-            setValue(value + 1)
+            setValue(parseInt(value) + 1)
         }
         else {
             alert('We can go upto twenty only')
@@ -20,7 +20,7 @@ const Increaser = () => {
     }
     const DecreaseVlaue = () => {
         if (value > 0) {
-            setValue(value - 1)
+            setValue(parseInt( value) - 1)
         }
         else {
             alert('We can go upto zero only')
@@ -33,7 +33,7 @@ const Increaser = () => {
             <div className="actionField" >
                 <button className="incBtn" onClick={DecreaseVlaue}>-</button>
                 <div>
-                    <input className="displayField" value={value} onChange={InputField} />
+                    <input className="displayField" value={value} type="number" onChange={InputField} />
                 </div>
                 <button className="incBtn" onClick={IncreaseVlaue}>+</button>
             </div>
